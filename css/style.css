@@ -521,7 +521,7 @@ a {
     text-align: center;
 }
 
-.control__text:not(:last-child){
+.control__text:not(:last-child) {
     margin-bottom: 5px;
 }
 
@@ -819,11 +819,12 @@ input[type="contact__name"], input[type="contact__email"] {
 }
 
 /* дерьмо стили для других страниц */
-.article{
+
+.article {
     padding: 50px 0;
 }
 
-.b-page{
+.b-page {
     font-size: 18px !important;
 }
 
@@ -839,8 +840,8 @@ input[type="contact__name"], input[type="contact__email"] {
 
 .title {
     text-align: center;
-    margin-bottom: 30px;
-    font-size: 52px;
+    margin-bottom: 25px;
+    font-size: 45px;
     text-transform: uppercase;
     color: #1f2937;
 }
@@ -918,6 +919,97 @@ input[type="contact__name"], input[type="contact__email"] {
     width: 888px;
     max-height: 500px;
 }
+
+.building {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.building__content {
+    display: flex;
+    justify-content: space-between;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.building__item {
+    position: relative;
+    max-width: 400px;
+}
+
+.building__item p {
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.building__number {
+    position: absolute;
+    top: -5px;
+    font-size: 55px;
+    left: 0;
+    color: #ffbe00;
+}
+
+.building__subtitle {
+    font-size: 25px;
+    font-weight: 700;
+    color: #1f2937;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    padding-left: 50px;
+}
+
+.line {
+    margin: 20px auto;
+    border: solid 2px #1f2937;
+    width: 84px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.communication{
+   margin-top: 50px; 
+}
+
+.communication__items{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.communication__item{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 276px;
+}
+
+.communication__item h3{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.communication__text{
+    position: relative;
+    background-color: #f6f7fc ;
+    border-radius: 17px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin-top: 30px;
+}
+
+.communication__text p{
+    padding: 20px;
+    max-width: 80%;
+}
+
+.communication__text img{
+    position: absolute;
+    right: -107px;
+    top: -57px;
+}
+
 
 /* dermo-adaptiv */
 
