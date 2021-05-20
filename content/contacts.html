@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/jquery.fancybox.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Neon</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="header__logo" href="#">
+                    <h1>ООО СК «НЕОН»</h1>
+                    <p>Строительная компания</p>
+                </a>
+                <div class="header__contants">
+                    <div class="header__text">
+                        <span>На связи</span>
+                        <p>Регулярно 24/7</p>
+                    </div>
+                    <a href="tel:+74996826092" class="header__phone">+7 (499) 682-60-92
+                        <p>Москва</p>
+                    </a>
+                    <a href="tel:+78734551328" class="header__phone">+7 (873) 455-13-28
+                        <p>Ингушетия</p>
+                    </a>
+                </div>
+                <a href="mailto:info@ckneon.ru" class="header__email">info@ckneon.ru
+                    <p>Написать нам</p>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="menu__section" id="menu">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="../index.html">ГЛАВНАЯ</a></li>
+                <li class="menu__item">
+                    <a href="##">О КОМПАНИИ</a>
+                    <ul class="menu__item-list">
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="vacancy.html">Вакансии</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item">
+                    <a href="##">УСЛГУГИ</a>
+                    <ul class="menu__item-list">
+                        <li><a href="road.html">Строительство и реконструкция дорог</a></li>
+                        <li><a href="building.html">Строительство зданий и сооружений</a></li>
+                        <li><a href="communication.html">Строительство коммуникаций и инженерных сетей</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu__item">
+                    <a href="##">ДЕЯТЕЛЬНОСТЬ</a>
+                    <ul class="menu__item-list">
+                        <li><a href="construction.html">Строительная деятельность</a></li>
+                        <li><a href="production.html">Произвотственная деятельность</a></li>
+                    </ul>
+                </li>
+                <li><a href="technic.html">ТЕХНИКА</a></li>
+                <li><a href="contacts.html">КОНТАКТЫ</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <img class="preview" src="../img/build.gif" alt="">
+    <section class="category">
+        <div class="container">
+            <div class="category__inner">
+                <a class="category__item" href="road.html">
+                    <div class="category__preview">
+                        <img class="category__icon" src="../img/category/category__road.svg" alt="img">
+                    </div>
+                    <div class="category__text">Строительство<br>дорог</div>
+                </a>
+                <a class="category__item" href="building.html">
+                    <div class="category__preview">
+                        <img class="category__icon" src="../img/category/category__house.svg" alt="img">
+                    </div>
+                    <div class="category__text">Строительство<br>зданий</div>
+                </a>
+                <a class="category__item" href="communication.html">
+                    <div class="category__preview">
+                        <img class="category__icon" src="../img/category/category__communications.svg" alt="img">
+                    </div>
+                    <div class="category__text">Строительство<br>коммуникаций</div>
+                </a>
+                <a class="category__item" href="technic.html">
+                    <div class="category__preview">
+                        <img class="category__icon" src="../img/category/category__technic.svg" alt="img">
+                    </div>
+                    <div class="category__text">Техническое<br>оснащение</div>
+                </a>
+                <a class="category__item" href="projects.html">
+                    <div class="category__preview">
+                        <img class="category__icon" src="../img/category/category__project.svg" alt="img">
+                    </div>
+                    <div class="category__text">Наши<br>проекты</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="wrapper">
+        <div class="container">
+            <section class="address">
+                <div class="container">
+                    <h2 class="title">Наши адреса</h2>
+                    <div class="address__tables">
+                        <div class="address__nav">
+                            <a class="address__item msk" href="##">
+                                <h3 class="address__subtitle">Москва</h3>
+                                <p>123290 г. Москва, 1-й Магистральный тупик, дом 5A</p>
+                                <p>+7 (499) 682-60-92</p>
+                            </a>
+                            <a class="address__item ing" href="##">
+                                <h3 class="address__subtitle">Ингушетия</h3>
+                                <p>386001, РИ, г. Магас, проспект Зязикова, д.4</p>
+                                <p>+7 (873) 455 -13-28</p>
+                            </a>
+                        </div>
+                        <div class="maps__item" id="ing__map">
+                            <iframe class="maps__item-map"
+                                src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa35335bdd751087fafa7ada0b5ea7c56a15b06d5de90099cd9bd950ed31667a9&amp;source=constructor"
+                                width="700" height="450" frameborder="0"></iframe>
+                        </div>
+                        <div class="maps__item" id="msk__map">
+                            <iframe class="maps__item-map"
+                                src="https://yandex.ru/map-widget/v1/?um=constructor%3A6a41b21f729bca530793fcf814b983baddae72f4cc6c0e0abfcac9bab3821379&amp;source=constructor"
+                                width="700" height="450" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <section class="article">
+        <div class="container">
+            <div class="contact__form">
+                <h2 class="title">связаться с нами</h2>
+                <iframe src="https://forms.yandex.ru/u/604df67d64edbe09ccc12a78/?iframe=1" frameborder="0"
+                    name="ya-form-604df67d64edbe09ccc12a78" width="650"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__top">
+                    <div class="footer__top-content">
+                        <div class="footer__title">У НАС ЕСТЬ ОТВЕТЫ</div>
+                        <div class="footer__text">на все строительные вопросы</div>
+                        <a href="#popup" class="footer__btn">Проконсультироваться</a>
+                    </div>
+                    <a href="#header" class="footer__btn arrow scrollto" id="footer__arrow">
+                        <span>наверх</span>
+                        <img class="arrow-img" src="../img/footer__arrow.svg" alt="footer arrow">
+                    </a>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__bottom-content">
+                        <span>ООО СК «НЕОН»</span>
+                        <p class="footer__bottom-text">
+                            Все данные, представленные на сайте, носят сугубо информационный
+                            характер и не являются исчерпывающими. Для более подробной информации следует обращаться к
+                            менеджерам компании по указанным на сайте телефонам. Информация представленная на сайте,
+                            касающаяся стоимости продукции, носит информационный характер и ни при каких условиях не
+                            является публичной офертой, определяемой положениями пункта 2 статьи 437 Гражданского
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <a href="##" class="popup__area"></a>
+            <div class="popup__content">
+                <a href="##" class="popup__close">X</a>
+                <div class="popup__title">Получить консультацию</div>
+                <div class="popup__text">Менеджер перезвонит вам в течении 3 минут, наверное...</div>
+                <form action="" class="contact__form">
+                    <input type="contact__name" name="username" maxlength="20" placeholder="Имя">
+                    <input id="phone" type="contact__email" name="phone" placeholder="+7 (999) 999-9999">
+                </form>
+                <a href="##" class="popup__btn">Заказать консультацию</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/jquery.maskedinput.js" type="text/javascript"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="https://yastatic.net/s3/frontend/forms/_/embed.js"></script>
+    <script src="../js/jquery.fancybox.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
